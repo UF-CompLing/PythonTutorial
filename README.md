@@ -47,4 +47,4 @@ To run it, Python needs to know which file to run.
 
 On the bottom of the screen (the "console"), it should read this:
 
-<img src="images/Console-1.png" height=200px>
+<img src="images/Console-1.png" height=150px>
