@@ -29,3 +29,22 @@ PyCharm's editor should open. It should look like....
 
 <img src="images/PyCharm-Editor.png" height=200px>
 
+## Run the program
+
+First, we will open up the source code. 
+
+* On the top, left side of the editor, you should see two folders: one labeled "PythonTutorial" and another labeled "External Libraries". 
+* Double-click the PythonTutorial folder to open it. It should open up the files inside.
+* Double-click the "tree.py" file. This should open up the source code on the main window.
+
+<img src="images/Tree-Py.png" height=200px>
+
+To run it, Python needs to know which file to run. 
+
+* Click the "Run" toolbar on the top of the screen, and then click "Run...."
+* Press the "tree.py" file
+* If the file hasn't run already, press the play button on the top right
+
+On the bottom of the screen (the "console"), it should read this:
+
+<img src="images/Console-1.png" height=200px>
