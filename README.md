@@ -48,3 +48,57 @@ To run it, Python needs to know which file to run.
 On the bottom of the screen (the "console"), it should read this:
 
 <img src="images/Console-1.png" height=150px>
+
+## Branch
+
+First, we will switch to a new branch.
+
+## Downloading NLTK (optional)
+
+(This only needs to be done once. If you have done the following before, feel free to skip it.)
+
+Remember that to complete this tutorial, you need to have NLTK downloaded. If you did not download it, please click [here](https://github.com/UF-CompLing/Resources/blob/master/Downloads.md) to learn how to do so.
+
+Erase the contents of your file, and type in....
+
+```python
+import nltk
+
+nltk.download()
+```
+
+* Run the file
+* Click on the Python pop-up that appears. (As of December 29, 2015, the thumbnail should look like a rocket ship.)
+* Click Download on the bottom-left of the popup screen. This will download the important packages.
+
+## Create a parse tree
+
+Erase the contents of your file, and type in...
+
+```python
+
+import nltk
+
+groucho_grammar = nltk.CFG.fromstring("""
+    S -> NP VP
+    PP -> P NP
+    NP -> Det N | Det N PP | 'I'
+    VP -> V NP | VP PP
+    Det -> 'an' | 'my'
+    N -> 'elephant' | 'pajamas'
+    V -> 'shot'
+    P -> 'in'
+    """)
+
+sent = ['I', 'shot', 'an', 'elephant', 'in', 'my', 'pajamas']
+parser = nltk.ChartParser(groucho_grammar)
+for tree in parser.parse(sent):
+    print(tree)
+
+```
+
+Run this file, and your should output something that looks like...
+
+<img src="images/parse-tree.png" height=150px>
+
+## Add, Commit, and Push
