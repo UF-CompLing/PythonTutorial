@@ -128,4 +128,5 @@ This moved your code to your own branch online. Try to find it on the [repositor
 You have now completed the Python and GitHub tutorial. I cannot wait to see you become an actively contributing member to the many projects out there today.
 
 Best of luck, and cheers!
+
 From, Danny
