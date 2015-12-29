@@ -53,6 +53,18 @@ On the bottom of the screen (the "console"), it should read this:
 
 First, we will switch to a new branch.
 
+* Select "VCS" on the top toolbar
+* Click Git->Branches->New Branch
+* Give the branch a name, and press "Okay"
+
+You have now switched to a new branch. For information on what a branch is, navigate to this [explanation](https://github.com/UF-CompLing/Resources/blob/master/WhatIsGit.md#with-version-control).
+
+To push this branch into the Repo,
+
+* Select VCS->Git->Push
+
+And voila!
+
 ## Downloading NLTK (optional)
 
 (This only needs to be done once. If you have done the following before, feel free to skip it.)
@@ -102,3 +114,18 @@ Run this file, and your should output something that looks like...
 <img src="images/parse-tree.png" height=150px>
 
 ## Add, Commit, and Push
+
+Now we want to put the code onto GitHub. To do so,
+
+* Go to VCS->Git->Commit File
+* Add a commit message. Something along the lines of: "Inputted code to create parse tree."
+* Hover your mouse over "Commit" on the bottom-right of the screen, and click "Commit and Push".
+
+This moved your code to your own branch online. Try to find it on the [repository](https://github.com/UF-CompLing/PythonTutorial) now!
+
+## Congrats!
+
+You have now completed the Python and GitHub tutorial. I cannot wait to see you become an actively contributing member to the many projects out there today.
+
+Best of luck, and cheers!
+- D
