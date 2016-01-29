@@ -113,6 +113,14 @@ Run this file, and your should output something that looks like...
 
 <img src="images/parse-tree.png" height=150px>
 
+## Go to New Branch (Optional)
+
+Sometimes you want to work on a larger side project, which you're not comfortable sharing with everyone until your project is done. You may create an alternate "branch" where you can put multiple commits. Once you're finished with your commits, you can put them back into the "master" branch. (If you think of a project's GitHub repository as a tree, the "master" branch is the "trunk" of that tree -> it's the main branch)
+
+* Press the VCS -> Git -> Branches button
+* Type in whatever you'd like to name your branch.
+* * Typically, you should try to make the name of your branch descriptive of what is happening in that branch
+
 ## Add, Commit, and Push
 
 Now we want to put the code onto GitHub. To do so,
